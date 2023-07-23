@@ -1,0 +1,12 @@
+.cart-title{
+    display: flex;
+    justify-content: start;
+    font-family: Karla-Medium,sans-serif;
+}
+
+.cart-title-mobile{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    font-family: Karla-Medium,sans-serif;
+}

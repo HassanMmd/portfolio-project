@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Caveat-Medium';
+    src: url(../assets/fonts/Caveat/static/Caveat-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Markazi-Medium';
+    src: url(../assets/fonts/static/MarkaziText-Medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Karla-Medium';
+    src: url(../assets/fonts/Karla/Karla-Medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'IndieFlower-Regular';
+    src: url(../assets/fonts/Indie_Flower/IndieFlower-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'YanoneKaffeesatz-Medium';
+    src: url(../assets/fonts/Yanone_Kaffeesatz/static/YanoneKaffeesatz-Medium.ttf) format('truetype');
+}
+
+.img{
+    width: 2px;
+    border-radius: 5%;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1rem;
+}
+
+.card-pos{
+    background-image: linear-gradient(#466a9da1, #2a43656b);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    font-family: Karla-Medium,sans-serif;
+}
+
+.cart-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: rgb(78, 11, 59);
+    font-family: Markazi-Medium,sans-serif;
+}
+
+.cart-text-mobile{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    color: rgb(78, 11, 59);
+    font-family: Markazi-Medium,sans-serif;
+}
+
+.see-more{
+    text-decoration: none;
+    color: rgb(201, 32, 2);
+}

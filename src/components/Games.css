@@ -1,0 +1,12 @@
+.games{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: auto auto;
+    grid-gap: 1rem;
+}
+
+.games-mobile{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+}

@@ -1,0 +1,13 @@
+.flutter{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: auto auto;
+    grid-gap: 1rem;
+    height: 250px;
+}
+
+.flutter-mobile{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+}

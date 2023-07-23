@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Karla-Medium';
+    src: url(../assets/fonts/Karla/Karla-Medium.ttf) format('truetype');
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.list-item{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Karla-Medium,sans-serif;
+}
+
+.m-btn{
+    background-color: transparent;
+    border: 0px;
+}
+
+.menu-nav{
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+    padding: 20px;
+    list-style: none;
+}

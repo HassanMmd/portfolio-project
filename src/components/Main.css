@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Karla-Medium';
+    src: url(../assets/fonts/Karla/Karla-Medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Caveat-Medium';
+    src: url(../assets/fonts/Caveat/static/Caveat-Medium.ttf) format('truetype');
+}
+
+.all-sections{
+    display: flex;
+    flex-direction: column;
+}
+
+.me-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.me-img-mobile{
+  width: 50%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.des-title{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  font-family: Karla-Medium,sans-serif;
+}
+.title{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+    color: white;
+    padding-top: 80px;
+    font-family: Caveat-Medium,sans-serif;
+}
+
+.pesonal-info{
+    background-image: linear-gradient(#466a9d, #304c73);
+    height: 690px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.projects-section{
+    background-image: linear-gradient(#304c73, #223956);
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+
+.my-projects{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1rem;
+}
+
+.my-projects-mobile{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+}
+
+.extra-projects{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1rem;
+}
+
+.extra-projects-mobile{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+}
+
+
+
+.education-courses{
+    background-image: linear-gradient(#223956, #132132);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container-laptop{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+}
+
+.card-container-mobile{
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1rem;
+}
+
+.contact-me{
+    background-image: linear-gradient(#132132, rgb(26, 26, 26));
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact-form{
+    background-image: linear-gradient(#182a3f, #2236536b);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    border-radius: 5%;
+    padding: 26px;
+    font-family: Karla-Medium,sans-serif;
+}
+
+.email{
+    color: #929496;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-mobile{
+    color: #929496;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}

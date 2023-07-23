@@ -1,0 +1,21 @@
+.header-objects{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(26, 26, 26);
+    height: 62px;
+}
+
+.contact-list{
+    display: flex;
+    gap: 20px;
+    color: white;
+    align-items: center;
+}
+
+.list-item{
+    text-decoration: none;
+    color: white;
+}
+
+/*position: sticky;
+top: 0;*/

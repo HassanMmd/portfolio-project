@@ -1,0 +1,14 @@
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(26, 26, 26);
+    height: 62px;
+    color: white;
+}
+
+.copyright-mobile{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}

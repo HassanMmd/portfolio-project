@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Caveat-Medium';
+    src: url(../assets/fonts/Caveat/static/Caveat-Medium.ttf) format('truetype');
+}
+
+.project-nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pro-nav-item{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    font-family: Caveat-Medium,sans-serif;
+}
